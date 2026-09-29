@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+h1 {
+    font-family: "Pacifico";
+    color: firebrick;
+}
+
+p {
+    font-size: medium;
+    font-weight: 100;
+    font-style: italic;
+    color: rgb(255, 163, 26);
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    color: blanchedalmond;
+}
+
+h2 {
+    font-family: "pacifico";
+    color: cadetblue;
+}
+
+h3 {
+    font-family: "pacifico";
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Keeps aspect ratio while completely filling the space */
+    display: block;
+    /* Removes default inline spacing below images */
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 0;
+    /* Set to 0 if you want no spacing between images */
+}
+
+.container,
+.image-wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+#Home-page {
+    background-color: moccasin;
+}
